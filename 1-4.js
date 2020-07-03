@@ -20,7 +20,7 @@ const romanToInt = s => {
         const now = map.get(s[i]);
         const prv = map.get(s[i - 1]);
 
-        if (prv >= now) { // 
+        if (prv >= now) {
             result += prv;
         } else {
             result -= prv;
@@ -43,13 +43,13 @@ const romanToInt = s => {
     let result = 0; 
     const special = {'IV': 4, 'IX': 9, 'XL': 40, 'XC': 90, 'CD': 400, 'CM': 900};
     
-    for (let i = 0; i < s.length-1; i++) { 
-        if (special[s[i]+s[i+1]]) { 
-            result += special[s[i]+s[i+1]]; 
-            s = s.replace(s[i]+s[i+1], ''); 
-            i = -1;
+    for (let i = 0; i < s.length - 1; i++) { 
+        if (special[s[i] + s[i + 1]]) { 
+            result += special[s[i] + s[i + 1]]; 
+            s = s.replace(s[i] + s[i + 1], ''); 
+            i = - 1;
         } 
-    } 
+    }
     
     for (let j = 0; j < s.length; j++) {
         result += roman[s[j]];
