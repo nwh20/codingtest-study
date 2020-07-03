@@ -20,19 +20,19 @@ const longestCommonPrefix = strs => {
 };
 
 
-// solution
-const longestCommonPrefix= strs => {
+// solution 1
+const longestCommonPrefix = strs => {
     let res = '';
     
     if (strs.length === 0) return '';
-    else if (strs.length ===1 ) return strs[0];
+    else if (strs.length === 1) return strs[0];
     
-    for (var i =0;i<strs[0].length;i++) {
-        for (var j=0;j<strs.length-1;) {
-            if (strs[j][i] === strs[j+1][i]) {
+    for (let i = 0; i < strs[0].length; i++) {
+        for (let j = 0; j < strs.length - 1;) {
+            if (strs[j][i] === strs[j + 1][i]) {
                 j++;
 
-                if (j===strs.length-1) res +=strs[j][i];
+                if (j === strs.length - 1) res += strs[j][i];
             } else return res;
         }
     }
