@@ -1,6 +1,11 @@
 // lt Easy 20 Valid Parentheses
 // Determine if the input string is valid.
 
+// conditions
+let s = "()[]{}" // Output: true
+let s = "(]" // Output: false
+
+
 // my answer
 const isValid = s => {
     if (s === null || s.length <= 0) return true;

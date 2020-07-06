@@ -1,6 +1,11 @@
 // lt Easy 14 Longest Common Prefix
 // Write a function to find the longest common prefix string amongst an array of strings.
 
+// conditions
+let strs = ["flower", "flow", "flight"] // Output: "fl"
+let strs = ["dog", "racecar", "car"]  // Output: ""
+
+
 // my answer
 const longestCommonPrefix = strs => {
     const len = strs.length;

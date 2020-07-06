@@ -1,6 +1,10 @@
 // lt Easy 7 Reverse Integer
 // Reverse digits of an integer.
 
+// conditons
+let x = 123; // Output: 321
+
+
 // my answer
 const reverse = x => {
     let result = parseInt(Math.abs(x).toString().split('').reverse().join(''));

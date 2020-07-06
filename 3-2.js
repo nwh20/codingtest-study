@@ -1,6 +1,11 @@
 // lt Easy 27 Remove Element
 // Remove all instances of that value in-place and return the new length.
 
+// conditions
+let nums = [0, 1, 2, 2, 3, 0, 4, 2];
+let val = 2; // Output: [0, 1, 4, 0, 3]
+
+
 // my answer
 const removeElement = (nums, val) => {
     let i = 0, j = 0;

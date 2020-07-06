@@ -1,6 +1,11 @@
 // lt Easy 21 Merge Two Sorted Lists
 // Merge two sorted linked lists and return it as a new sorted list. 
 
+// conditions
+let l1 = [1, 2, 4];
+let l2 = [1, 3, 4]; // Output: [1, 1, 2, 3, 4, 4]
+
+
 // my answer
 const mergeTwoLists = (l1, l2) => {
     if (l1 === null) return l2;

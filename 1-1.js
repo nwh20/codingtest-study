@@ -2,8 +2,9 @@
 // Get indices of the two numbers such that they add up to a specific target.
 
 // conditons
-let nums = [2,7,11,15]; 
+let nums = [2, 7, 11, 15]; // Output: [0, 1]
 let target = 9; 
+
 
 // my answer
 const twoSum = (nums, target) => {
@@ -14,8 +15,6 @@ const twoSum = (nums, target) => {
             }
         }
      }
-
-    return [];  
 };
 
 
