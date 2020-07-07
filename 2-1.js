@@ -35,7 +35,7 @@ const isValid = function(s) {
     };
     let charStack = [];
     
-    if (s===null || s===undefined) return false;
+    if (s === null || s === undefined) return false;
     
     for (var i = 0; i < s.length; i++) {
         let curChar = s.charAt(i);
@@ -61,7 +61,7 @@ const isValid = s => {
     };
 
     for (let i = 0; i < s.length; i++) {
-        if (b[s[i]] == undefined) {
+        if (b[s[i]] === undefined) {
             a.push(s[i]);
         } else {
             const last = a.pop();
