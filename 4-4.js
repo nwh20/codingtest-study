@@ -30,7 +30,7 @@ const solution = arr => {
     
     answer.push(now);
     
-    for (let i = 1;i < arr.length; i++) {
+    for (let i = 1; i < arr.length; i++) {
         if (now !== arr[i]) {
             now = arr[i];
             answer.push(now);

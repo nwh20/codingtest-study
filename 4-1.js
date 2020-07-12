@@ -28,7 +28,7 @@ const solution = (participant, completion) => {
     completion.sort();
     
     for(let i = 0; i < participant.length; i++) {
-        if(i === participant.length-1 || participant[i] !== completion[i]) 
+        if(i === participant.length - 1 || participant[i] !== completion[i]) 
             return answer = participant[i];
     }
     
