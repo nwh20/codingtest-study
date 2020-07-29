@@ -1,4 +1,4 @@
-// hr Warmup 4 Diagonal Difference
+// hr Warmup Diagonal Difference
 // Given a square matrix, calculate the absolute difference between the sums of its diagonals.
 
 // conditions

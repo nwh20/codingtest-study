@@ -1,4 +1,4 @@
-// hr Warmup 1 Solve Me First
+// hr Warmup Solve Me First
 // Complete the function solveMeFirst to compute the sum of two integers.
 
 // conditions

@@ -1,4 +1,4 @@
-// hr Warmup 3 A Very Big Sum
+// hr Warmup A Very Big Sum
 // Calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.
 
 // conditions

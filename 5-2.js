@@ -1,4 +1,4 @@
-// hr Warmup 2 Simple array Sum
+// hr Warmup Simple array Sum
 // Given an array of integers, find the sum of its elements.
 
 // conditions
