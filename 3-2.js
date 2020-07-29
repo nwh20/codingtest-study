@@ -19,7 +19,7 @@ const removeElement = (nums, val) => {
     }
     
     return i;
-};
+}
 
 
 // solution 1
@@ -32,4 +32,4 @@ const removeElement = (nums, val) => {
     }
     
     return nums.length;
-};
+}

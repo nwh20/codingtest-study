@@ -10,7 +10,7 @@ const reverse = x => {
     let result = parseInt(Math.abs(x).toString().split('').reverse().join(''));
     
     return result > Math.pow(2, 31) - 1 ? 0 : x > 0 ? result : result * - 1;
-};
+}
 
 
 // solution 1
@@ -20,7 +20,7 @@ const reverse = x => {
     let n = Number(String(Math.abs(x)).split('').reverse().join(''));
 
     return n > limit ? 0 : n * k;
-};
+}
 
 // solution 2
 const reverse = x => {
@@ -41,4 +41,4 @@ const reverse = x => {
 
     result = signed * Number(string.join(''));
     return (result >= max || result <= min) ? 0 : result;
-};
+}

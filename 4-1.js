@@ -17,7 +17,7 @@ const solution = (participant, completion) => {
     
     let answer = '';
     return answer;
-};
+}
 
 
 // solution 1
@@ -33,7 +33,7 @@ const solution = (participant, completion) => {
     }
     
     return answer;
-};
+}
 
 // solution 2
 const solution = (participant, completion) => {
@@ -46,11 +46,12 @@ const solution = (participant, completion) => {
       
     for (const person of participant) {
         const mapItem = completeMap.get(person);
+        
         if (!mapItem) {
             return person;
         } else {
             completeMap.set(person, mapItem - 1);
         }
     }
-};
+}
 

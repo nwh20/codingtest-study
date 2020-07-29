@@ -11,10 +11,10 @@ const strStr = (haystack, needle) => {
     if (needle === "") return 0;
     
     return haystack.indexOf(needle);
-};
+}
 
 
 // solution 1
 const strStr = (haystack, needle) => {
     return haystack.indexOf(needle);
-};
+}

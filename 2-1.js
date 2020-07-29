@@ -23,7 +23,7 @@ const isValid = s => {
     if (stack.length === 0) return true;
     
     return false;
-};
+}
 
 
 // solution 1
@@ -40,6 +40,7 @@ const isValid = function(s) {
     for (var i = 0; i < s.length; i++) {
         let curChar = s.charAt(i);
         let topElement;
+        
         if (closeMap[curChar] !== undefined) {
             topElement = (charStack.length === 0) ? '#' : charStack.pop();
 
@@ -49,7 +50,7 @@ const isValid = function(s) {
         }
     }
     return charStack.length === 0;
-};
+}
 
 // solution 2
 const isValid = s => {
@@ -70,5 +71,5 @@ const isValid = s => {
     }
 
     return (a.length === 0);
-};
+}
 

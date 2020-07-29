@@ -20,7 +20,7 @@ const mergeTwoLists = (l1, l2) => {
     }
 
     return head;
-};
+}
 
 
 // solution 1
@@ -34,7 +34,7 @@ const mergeTwoLists = (l1, l2) => {
 
     l2.next = mergeTwoLists(l2.next, l1);
     return l2;
-};
+}
 
 // solution 2
 const mergeTwoLists = (l1, l2) => {
@@ -43,7 +43,7 @@ const mergeTwoLists = (l1, l2) => {
     const linkThem = (smaller, greater) => {
         smaller.next = mergeTwoLists(smaller.next, greater);
         return smaller;
-    };
+    }
     
     return l1.val < l2.val ? linkThem(l1,l2) : linkThem(l2,l1);
-};
+}

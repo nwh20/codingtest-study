@@ -12,16 +12,16 @@ const solution = arr => {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] !== arr[i + 1]) {
            answer.push(arr[i]);
-        };
+        }
     }
     
     return answer;
-};
+}
 
 // solution 1
 const solution = arr => {
     return arr.filter((v, i) => v !== arr[i + 1]);
-};
+}
 
 // solution 2
 const solution = arr => {
@@ -38,4 +38,4 @@ const solution = arr => {
     }
     
     return answer;
-};
+}

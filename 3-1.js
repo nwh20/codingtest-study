@@ -8,7 +8,7 @@ let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]; // Output: [0, 1, 2, 3, 4]
 // my answer
 const removeDuplicates = nums => {
     nums.splice(0, nums.length, ...(new Set(nums)));
-};
+}
 
 
 // solution 1
@@ -24,7 +24,7 @@ const removeDuplicates = nums => {
     }
 
    return slowP + 1;
-};
+}
 
 // solution 2
 const removeDuplicates = nums => {

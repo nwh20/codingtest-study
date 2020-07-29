@@ -20,4 +20,4 @@ const diagonalDifference = arr => {
     }
 
     return Math.abs(result1 - result2);
-};
+}

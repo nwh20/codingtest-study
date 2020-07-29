@@ -33,7 +33,7 @@ const romanToInt = s => {
     }
 
     return result;
-};
+}
 
 
 // solution 1
@@ -60,4 +60,4 @@ const romanToInt = s => {
     }
     
     return result;
-};
+}

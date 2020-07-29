@@ -15,7 +15,7 @@ const twoSum = (nums, target) => {
             }
         }
      }
-};
+}
 
 
 // solution 1
@@ -27,7 +27,7 @@ const twoSum = (nums, target) => {
         }
         comp[target - nums[i]] = i;
     }
-};
+}
 
 // solution 2
 const twoSum = (nums, target) => {
@@ -42,21 +42,21 @@ const twoSum = (nums, target) => {
 
         map.set(nums[i], i);
     }
-};
+}
 
 // solution 3
 const twoSum = (nums, target) => {
     const map = {};
   
     for (let i = 0; i < nums.length; i++) {
-      const another = target - nums[i];
-  
-      if (another in map) {
-        return [map[another], i];
-      }
-  
-      map[nums[i]] = i;
+        const another = target - nums[i];
+    
+        if (another in map) {
+            return [map[another], i];
+        }
+    
+        map[nums[i]] = i;
     }
   
     return null;
-};
+}

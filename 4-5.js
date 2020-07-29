@@ -18,14 +18,14 @@ const solution = (arr, divisor) => {
     if (answer.length === 0) answer.push(-1);
     
     return answer;
-};
+}
 
 
 // solution 1
 const solution = (arr, divisor) => {
     const answer = arr.filter(el => el % divisor === 0);
     return answer.length ? answer.sort((p, c) => p - c) : [-1];
-};
+}
 
 // solution 2
 const solution = (arr, divisor) => {
@@ -37,4 +37,4 @@ const solution = (arr, divisor) => {
     } else {
         return answer.sort((a, b) => a - b);
     }
-};
+}

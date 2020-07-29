@@ -9,5 +9,5 @@ let b = 3;  // Output: 5
 // my answer
 const solveMeFirst = (a, b) => {
     return a + b;
-};
+}
   

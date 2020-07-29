@@ -18,13 +18,13 @@ const solution = s => {
     }
     
     return answer;
-};
+}
 
 
 // solution 1
 const solution = s => {
     return s.substr(Math.ceil(s.length / 2) - 1, s.length % 2 === 0 ? 2 : 1);
-};
+}
 
 // solution 2
 const solution = s => {
@@ -40,4 +40,4 @@ const solution = s => {
     }
 
     return answer;
-};
+}

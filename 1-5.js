@@ -22,7 +22,7 @@ const longestCommonPrefix = strs => {
     }
 
     return prefix;
-};
+}
 
 
 // solution 1
@@ -43,4 +43,4 @@ const longestCommonPrefix = strs => {
     }
 
     return res;
-};
+}
