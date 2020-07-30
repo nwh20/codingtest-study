@@ -1,5 +1,5 @@
 // hr Warmup Staircase
-// Observe that its base and height are both equal to n, and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces. Write a program that prints a staircase of size .
+// Observe that its base and height are both equal to n, and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces. Write a program that prints a staircase of size.
 
 // conditions
 let n = 6  // possible to change direction modifying the space of ' '

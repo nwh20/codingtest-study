@@ -2,8 +2,8 @@
 // Determine if the input string is valid.
 
 // conditions
-let s = "()[]{}" // Output: true
-let s = "(]" // Output: false
+let s = '()[]{}' // Output: true
+let s = '(]' // Output: false
 
 
 // my answer

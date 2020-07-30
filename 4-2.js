@@ -3,12 +3,12 @@
 
 // conditions
 let a = 5;
-let b = 24; // Output: "TUE"
+let b = 24; // Output: 'TUE'
 
 
 // my answer
 const solution = (a, b) => {
-    let days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+    let days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
     let date = new Date(`${a}, ${b}, 2016`).getDay();
     let answer = days[date];
     

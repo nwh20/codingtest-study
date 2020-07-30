@@ -2,8 +2,8 @@
 // 완주하지 못한 선수의 이름을 return 하도록 solution 함수를 작성해주세요.
 
 // conditions
-let participant = ["leo", "kiki", "eden"];
-let completion = ["kiki", "eden"];  // Output: "leo"
+let participant = ['leo', 'kiki', 'eden'];
+let completion = ['kiki', 'eden'];  // Output: 'leo'
 
 
 // my answer

@@ -15,5 +15,5 @@ const isPalindrome = x => {
 
 // solution 1
 const isPalindrome = x => {
-    return x === Number(x.toString().split("").reverse().join(""));
+    return x === Number(x.toString().split('').reverse().join(''));
 }

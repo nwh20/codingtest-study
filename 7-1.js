@@ -30,5 +30,5 @@ const miniMaxSum = arr => {
     const max = maxArr.slice(arr.length - 4).reduce((acc, no) => acc += no, 0);
     const min = minArr.slice(arr.length - 4).reduce((acc, no) => acc += no, 0);
 
-    console.log(min + " " + max);
+    console.log(min + ' ' + max);
 }
